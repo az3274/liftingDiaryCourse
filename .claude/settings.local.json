@@ -12,7 +12,11 @@
       "Bash(Remove-Item *)",
       "Bash(npx shadcn@latest add calendar popover)",
       "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\({k:v for k,v in {**d.get\\('dependencies',{}\\), **d.get\\('devDependencies',{}\\)}.items\\(\\)}, indent=2\\)\\)\")",
-      "mcp__Neon__run_sql"
+      "mcp__Neon__run_sql",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git merge *)"
     ]
   },
   "disabledMcpjsonServers": [
