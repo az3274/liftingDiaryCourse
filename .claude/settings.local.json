@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm i *)",
+      "Bash(Test-Path *)",
+      "mcp__Neon__list_projects",
+      "mcp__Neon__get_database_tables",
+      "mcp__Neon__describe_table_schema",
+      "mcp__Neon__run_sql_transaction",
+      "Bash(Get-ChildItem -Recurse -Name)",
+      "Bash(Remove-Item *)",
+      "Bash(npx shadcn@latest add calendar popover)",
+      "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\({k:v for k,v in {**d.get\\('dependencies',{}\\), **d.get\\('devDependencies',{}\\)}.items\\(\\)}, indent=2\\)\\)\")",
+      "mcp__Neon__run_sql"
+    ]
+  },
+  "disabledMcpjsonServers": [
+    "neon"
+  ]
+}
